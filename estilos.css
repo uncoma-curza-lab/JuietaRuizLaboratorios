@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+header{
+    background: #0f0052;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background: #afaeae;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+.bio {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;            
+    padding: 20px;
+}
+
+.bio .texto {
+    flex: 1;              
+}
+.texto p{
+    text-align: justify;
+}
+.yo {
+    width: 130px;      
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+footer {
+    background: #0f0052;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
