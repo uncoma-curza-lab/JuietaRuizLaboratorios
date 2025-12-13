@@ -62,12 +62,13 @@ footer {
     text-align: center;
     color: white;
 }
-/* estilos para el formulario */
+/******************* PAGINA DE CONTACTO *****************************/
+
 /* CONTENEDOR DEL FORMULARIO Y TABLA */
 .formulario-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* centra horizontalmente */
+    align-items: center; 
     padding: 20px;
 }
 
